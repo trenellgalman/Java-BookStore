@@ -30,7 +30,7 @@ public class Module2_Task11_thru_14_IT {
 
 	  @Before
 	  public void setUp() throws IOException {
-	    indexUrl = "http://localhost:8080"; //System.getProperty("integration.base.url");
+	    indexUrl = "http://localhost:8888"; //System.getProperty("integration.base.url");
 	    webClient = new WebClient();
 			// Open the admin page
 	    firstPage = webClient.getPage(indexUrl + "/books/admin");
